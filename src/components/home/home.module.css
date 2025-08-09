@@ -1,0 +1,92 @@
+.homeMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width:100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+     background-image: url('images/loanimg.jpg'); /* <-- relative to public folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.homeHeader{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+.homeContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.textSection {
+  flex: 1;
+  min-width: 300px;
+  /* max-width: 600px; */
+  text-align: left;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0 20px ;
+  font-size: 1.2rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+.applySection{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow:  0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+}
+.applySection a{
+    text-decoration:  none;
+}
+.applySection button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #077aff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s rease;
+}
+
+.formSection {
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
