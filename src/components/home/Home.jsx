@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className={styles.homeContent}>
         <div className={styles.textSection}>
-            <h2>Fast, Flexible, and Affordable Loans – When You Need Them Most</h2>
+            <h2 className={styles.mainText}>Fast, Flexible, and Affordable Loans – When You Need Them Most</h2>
           <p>At MS Loans, we make borrowing simple. Whether you're looking to finance a big purchase, consolidate debt, cover unexpected expenses, or grow your business, we offer personalized loan solutions designed to fit your needs and budget.</p>
           <h4>✅ Quick Approvals</h4>
           <p>Apply online in minutes and get a decision fast – no long lines or endless paperwork.</p>

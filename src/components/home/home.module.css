@@ -11,7 +11,7 @@
     color: #333;
     text-align: center;
     padding: 50px 0;
-     background-image: url('images/loanimg.jpg'); /* <-- relative to public folder */
+     background-image: url('/src/assets/images/loanimg.jpg'); /* <-- relative to public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +35,9 @@
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
+}
+.mainText{
+  color: white;
 }
 
 .textSection {
