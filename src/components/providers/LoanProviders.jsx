@@ -3,7 +3,7 @@ import styles from './LoanProviders.module.css'; // ✅ Correct casing
 
 // Import images from src/assets/images
 import hdfc from '../../assets/images/HDFC.png';
-import icici from '../../assets/images/ICICI_LOGO.PNG';
+import icici from '../../assets/images/ICICI_Logo.png';
 import bajaj from '../../assets/images/Bajaj.png';
 import sbi from '../../assets/images/sbi.png';
 
