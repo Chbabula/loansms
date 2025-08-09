@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import styles from './loanproviders.module.css';
+import styles from './LoanProviders.module.css';
 
 // Import images from src/assets/images
 import hdfc from '../../assets/images/HDFC.png';
