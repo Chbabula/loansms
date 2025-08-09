@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import styles from './LoanProviders.module.css';
+import styles from './LoanProviders.module.css'; // ✅ Correct casing
 
 // Import images from src/assets/images
 import hdfc from '../../assets/images/HDFC.png';
@@ -20,14 +20,12 @@ function LoanProviders() {
 
     const typeEffect = () => {
       if (!isDeleting) {
-        // typing
         setDisplayText(fullText.slice(0, indexRef.current + 1));
         indexRef.current++;
         if (indexRef.current === fullText.length) {
           setTimeout(() => setIsDeleting(true), 1500);
         }
       } else {
-        // deleting
         setDisplayText(fullText.slice(0, indexRef.current - 1));
         indexRef.current--;
         if (indexRef.current === 0) {
@@ -45,6 +43,7 @@ function LoanProviders() {
       <h2 className={styles.heading}>Loan {displayText}</h2>
       <div className={styles.slider}>
         <div className={styles.slideTrack}>
+          {/* Repeat partners twice for infinite effect */}
           {partners.concat(partners).map((logo, index) => (
             <div className={styles.slide} key={index}>
               <img src={logo} alt={`Partner Logo ${index + 1}`} />
